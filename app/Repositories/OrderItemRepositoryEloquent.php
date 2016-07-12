@@ -2,11 +2,12 @@
 
 namespace CodeDelivery\Repositories;
 
+use Illuminate\Database\Eloquent\Collection;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
 use CodeDelivery\Repositories\OrderItemRepository;
 use CodeDelivery\Models\OrderItem;
-use CodeDelivery\Validators\OrderItemValidator;
+
 
 /**
  * Class OrderItemRepositoryEloquent
@@ -14,6 +15,7 @@ use CodeDelivery\Validators\OrderItemValidator;
  */
 class OrderItemRepositoryEloquent extends BaseRepository implements OrderItemRepository
 {
+
     /**
      * Specify Model class name
      *
