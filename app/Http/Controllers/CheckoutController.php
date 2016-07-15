@@ -7,7 +7,6 @@ use CodeDelivery\Repositories\OrderRepository;
 use CodeDelivery\Repositories\ProductRepository;
 use CodeDelivery\Repositories\UserRepository;
 use CodeDelivery\Services\OrderService;
-use Illuminate\Http\Request;
 
 use CodeDelivery\Http\Requests;
 use CodeDelivery\Http\Controllers\Controller;

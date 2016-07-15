@@ -6,6 +6,7 @@ namespace CodeDelivery\Http\Requests;
 
 use Illuminate\Http\Request as HttpRequest;
 
+
 class CheckoutRequest extends Request
 {
     /**
