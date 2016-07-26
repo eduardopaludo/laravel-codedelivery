@@ -12,16 +12,17 @@ use CodeDelivery\Models\Cupom;
 class CupomTransformer extends TransformerAbstract
 {
 
+
     /**
-     * Transform the \Cupom entity
-     * @param \Cupom $model
-     *
+     * @param Cupom $model
      * @return array
      */
     public function transform(Cupom $model)
     {
         return [
             'id'         => (int) $model->id,
+            'code'  =>$model->code,
+            'value' =>(float) $model->value,
 
             /* place your other model properties here */
 

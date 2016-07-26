@@ -80,9 +80,17 @@ Route::group(['middleware' => 'cors'], function(){
 
             Route::patch('order/{id}/update-status', [
                 'uses'=>'Api\Deliveryman\DeliverymanCheckoutController@updateStatus',
-                'as'=>'orders.update_states'
+                'as'=>'orders.update_status'
+            ]);
+
+            Route::post('order/{id}/geo',[
+                'uses'=>'Api\Deliveryman\DeliverymanCheckoutController@geo',
+                'as' => 'orders.geo'
             ]);
         });
+
+        Route::get('authenticated','Api\UserController@authenticated');
+        Route::get('cupom/{code}','Api\CupomController@show');
 
     });
 });
