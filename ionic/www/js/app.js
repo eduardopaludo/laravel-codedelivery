@@ -10,11 +10,11 @@ angular.module('starter.filters', []);
 
 angular.module('starter', [
     'ionic', 'starter.controllers', 'starter.services', 'starter.filters',
-    'angular-oauth2', 'ngResource', 'ngCordova'
+    'angular-oauth2', 'ngResource', 'ngCordova', 'uiGmapgoogle-maps'
 ])
 
     .constant('appConfig', {
-        baseUrl: 'http://10.0.0.116:8000'
+        baseUrl: 'http://localhost:8000'
     })
 
     .run(function ($ionicPlatform) {
@@ -84,6 +84,12 @@ angular.module('starter', [
                 url: '/view_order/:id',
                 templateUrl: 'templates/client/view_order.html',
                 controller: 'ClientViewOrderController'
+            })
+            .state('client.view_delivery', {
+                cache: false,
+                url: '/view_delivery/:id',
+                templateUrl: 'templates/client/view_delivery.html',
+                controller: 'ClientViewDeliveryController'
             })
             .state('client.checkout', {
                 cache: false,

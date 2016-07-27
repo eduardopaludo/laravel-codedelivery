@@ -2,159 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="741eacf7-38d3-4f00-a194-50aee2e12a55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Events/GetLocationDeliveryman.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CupomController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Models/Geo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2016_07_26_013552_add_hash_to_orders.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/client/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/client/order.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/client/viewOrder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/order.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/viewOrder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/filters/join.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/services/cupom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/services/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/services/userData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/templates/client/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/templates/client/order.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/templates/client/view_order.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/templates/deliveryman/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/templates/deliveryman/order.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/templates/deliveryman/view_order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/laravel-codedelivery.iml" afterPath="$PROJECT_DIR$/.idea/laravel-codedelivery.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/client/viewDelivery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/templates/client/view_delivery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Deliveryman/DeliverymanCheckoutController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Deliveryman/DeliverymanCheckoutController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/OrdersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrdersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/OAuth2/PasswordGrantVerifier.php" afterPath="$PROJECT_DIR$/app/OAuth2/PasswordGrantVerifier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repositories/CupomRepository.php" afterPath="$PROJECT_DIR$/app/Repositories/CupomRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repositories/CupomRepositoryEloquent.php" afterPath="$PROJECT_DIR$/app/Repositories/CupomRepositoryEloquent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repositories/OrderRepositoryEloquent.php" afterPath="$PROJECT_DIR$/app/Repositories/OrderRepositoryEloquent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repositories/UserRepositoryEloquent.php" afterPath="$PROJECT_DIR$/app/Repositories/UserRepositoryEloquent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Services/ClientService.php" afterPath="$PROJECT_DIR$/app/Services/ClientService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Services/OrderService.php" afterPath="$PROJECT_DIR$/app/Services/OrderService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/ClientTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/ClientTransformer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/CupomTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/CupomTransformer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/OrderItemTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/OrderItemTransformer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/OrderTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/OrderTransformer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/cors.php" afterPath="$PROJECT_DIR$/config/cors.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/bower.json" afterPath="$PROJECT_DIR$/ionic/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/config.xml" afterPath="$PROJECT_DIR$/ionic/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/package.json" afterPath="$PROJECT_DIR$/ionic/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/index.html" afterPath="$PROJECT_DIR$/ionic/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/app.js" afterPath="$PROJECT_DIR$/ionic/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/controllers/client/checkout.js" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/client/checkout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/controllers/client/checkoutDetail.js" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/client/checkoutDetail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/controllers/client/viewProduct.js" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/client/viewProduct.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/controllers/login.js" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/services/cart.js" afterPath="$PROJECT_DIR$/ionic/www/js/services/cart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/services/localStorage.js" afterPath="$PROJECT_DIR$/ionic/www/js/services/localStorage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/controllers/client/order.js" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/client/order.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/viewOrder.js" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/viewOrder.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/services/order.js" afterPath="$PROJECT_DIR$/ionic/www/js/services/order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/services/product.js" afterPath="$PROJECT_DIR$/ionic/www/js/services/product.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/LICENSE.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/angular-cookies.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/angular-cookies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/angular-cookies.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/angular-cookies.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/angular-cookies.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/angular-cookies.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/CHANGELOG.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/LICENSE" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/dist/angular-oauth2.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/dist/angular-oauth2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/angular-oauth2.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/angular-oauth2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/config/oauth-config.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/config/oauth-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/interceptors/oauth-interceptor.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/interceptors/oauth-interceptor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/providers/oauth-provider.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/providers/oauth-provider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/providers/oauth-token-provider.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/providers/oauth-token-provider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/LICENSE.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-resource/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-resource/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/angular-resource.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-resource/angular-resource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/angular-resource.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-resource/angular-resource.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/angular-resource.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-resource/angular-resource.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-resource/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-resource/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-resource/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/CHANGELOG.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/LICENSE" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/api/angular-ui-router.d.ts" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/api/angular-ui-router.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/release/angular-ui-router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/release/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/common.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/resolve.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/resolve.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/state.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/state.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/stateDirectives.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/stateDirectives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/stateFilters.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/stateFilters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/templateFactory.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/templateFactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/urlMatcherFactory.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/urlMatcherFactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/urlRouter.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/urlRouter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/view.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/viewDirective.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/viewDirective.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/viewScroll.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/viewScroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/LICENSE.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/angular-csp.css" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/angular-csp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/angular.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/query-string/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib/query-string/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/query-string/license" afterPath="$PROJECT_DIR$/ionic/www/lib/query-string/license" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/query-string/query-string.js" afterPath="$PROJECT_DIR$/ionic/www/lib/query-string/query-string.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/lib/query-string/readme.md" afterPath="$PROJECT_DIR$/ionic/www/lib/query-string/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/templates/client/checkout.html" afterPath="$PROJECT_DIR$/ionic/www/templates/client/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/templates/client/checkout_item_detail.html" afterPath="$PROJECT_DIR$/ionic/www/templates/client/checkout_item_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/templates/client/view_products.html" afterPath="$PROJECT_DIR$/ionic/www/templates/client/view_products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/templates/home.html" afterPath="$PROJECT_DIR$/ionic/www/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/templates/login.html" afterPath="$PROJECT_DIR$/ionic/www/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/categories/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/categories/_form.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/categories/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/categories/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/clients/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/clients/_form.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/clients/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/clients/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/clients/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/clients/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/clients/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/clients/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/cupoms/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/cupoms/_form.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/cupoms/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/cupoms/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/cupoms/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/cupoms/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/cupoms/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/cupoms/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/orders/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/orders/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/orders/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/orders/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/products/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/products/_form.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/products/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/products/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/customer/order/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/customer/order/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/customer/order/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/customer/order/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/errors/_check.blade.php" afterPath="$PROJECT_DIR$/resources/views/errors/_check.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/templates/client/order.html" afterPath="$PROJECT_DIR$/ionic/www/templates/client/order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/templates/deliveryman/view_order.html" afterPath="$PROJECT_DIR$/ionic/www/templates/deliveryman/view_order.html" />
     </list>
     <ignored path="laravel-codedelivery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1173,104 +1033,72 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GetLocationDeliveryman.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Events/GetLocationDeliveryman.php">
+    <leaf>
+      <file leaf-file-name="order.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/order.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="260">
+              <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016_07_26_013552_add_hash_to_orders.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2016_07_26_013552_add_hash_to_orders.php">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="408">
+              <caret line="24" column="27" selection-start-line="21" selection-start-column="24" selection-end-line="24" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="broadcasting.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/broadcasting.php">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="42" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="42" />
+            <state relative-caret-position="442">
+              <caret line="60" column="70" selection-start-line="60" selection-start-column="70" selection-end-line="60" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeliverymanCheckoutController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Deliveryman/DeliverymanCheckoutController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="82" column="55" selection-start-line="82" selection-start-column="55" selection-end-line="82" selection-end-column="55" />
-              <folding>
-                <element signature="e#65#112#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Event.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Events/Event.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Services/OrderService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderRepositoryEloquent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Repositories/OrderRepositoryEloquent.php">
+      <file leaf-file-name="view_delivery.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/view_delivery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="302">
+              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Geo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Geo.php">
+      <file leaf-file-name="viewDelivery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/viewDelivery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="280">
+              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_order.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/www/templates/deliveryman/view_order.html">
+      <file leaf-file-name="OrderTransformer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Transformers/OrderTransformer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -1291,10 +1119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/cors.php" />
-        <option value="$PROJECT_DIR$/app/filter.php" />
-        <option value="$PROJECT_DIR$/public/filters.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/ionic/www/templates/client/checkoutSuccessful.html" />
         <option value="$PROJECT_DIR$/app/Repositories/CupomRepository.php" />
@@ -1313,11 +1137,8 @@
         <option value="$PROJECT_DIR$/ionic/www/templates/menu.html" />
         <option value="$PROJECT_DIR$/ionic/www/templates/login.html" />
         <option value="$PROJECT_DIR$/ionic/www/templates/client/menu.html" />
-        <option value="$PROJECT_DIR$/app/Transformers/OrderTransformer.php" />
         <option value="$PROJECT_DIR$/ionic/www/js/filters/join.js" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/checkoutSuccessful.js" />
-        <option value="$PROJECT_DIR$/ionic/www/templates/client/order.html" />
-        <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/order.js" />
         <option value="$PROJECT_DIR$/ionic/www/templates/client/view_order.html" />
         <option value="$PROJECT_DIR$/app/Transformers/OrderItemTransformer.php" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/login.js" />
@@ -1326,12 +1147,9 @@
         <option value="$PROJECT_DIR$/app/Transformers/UserTransformer.php" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/checkout.js" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/viewOrder.js" />
-        <option value="$PROJECT_DIR$/ionic/www/js/services/order.js" />
         <option value="$PROJECT_DIR$/ionic/www/templates/deliveryman/menu.html" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/order.js" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/menu.js" />
-        <option value="$PROJECT_DIR$/ionic/www/index.html" />
-        <option value="$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/viewOrder.js" />
         <option value="$PROJECT_DIR$/app/Models/Geo.php" />
         <option value="$PROJECT_DIR$/app/Repositories/OrderRepositoryEloquent.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
@@ -1340,8 +1158,18 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_07_26_013552_add_hash_to_orders.php" />
         <option value="$PROJECT_DIR$/app/Services/OrderService.php" />
         <option value="$USER_HOME$/Downloads/codedelivery_curso.sql" />
-        <option value="$PROJECT_DIR$/ionic/www/js/app.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/Deliveryman/DeliverymanCheckoutController.php" />
+        <option value="$PROJECT_DIR$/ionic/www/js/services/order.js" />
+        <option value="$PROJECT_DIR$/ionic/www/templates/deliveryman/view_order.html" />
+        <option value="$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/viewOrder.js" />
+        <option value="$PROJECT_DIR$/ionic/www/templates/deliveryman/order.html" />
+        <option value="$PROJECT_DIR$/ionic/www/templates/client/order.html" />
+        <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/order.js" />
+        <option value="$PROJECT_DIR$/ionic/www/index.html" />
+        <option value="$PROJECT_DIR$/ionic/www/templates/client/view_delivery.html" />
+        <option value="$PROJECT_DIR$/app/Transformers/OrderTransformer.php" />
+        <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/viewDelivery.js" />
+        <option value="$PROJECT_DIR$/ionic/www/js/app.js" />
       </list>
     </option>
   </component>
@@ -1419,78 +1247,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ionic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-codedelivery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-codedelivery" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ionic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-codedelivery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-codedelivery" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ionic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-codedelivery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-codedelivery" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ionic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-codedelivery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-codedelivery" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -1509,14 +1265,14 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Events" />
+              <option name="myItemId" value="Transformers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1529,16 +1285,16 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eduardo\Documents\laravel-codedelivery\ionic\www\templates\client" />
+      <recent name="C:\Users\eduar\Documents\laravel-codedelivery\app\Models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eduardo\Documents\laravel-codedelivery\ionic\www\templates\client" />
       <recent name="C:\Users\Eduardo\Documents\laravel-codedelivery\app\Models" />
       <recent name="C:\Users\Eduardo\Documents\laravel-codedelivery\ionic\www\js\services" />
       <recent name="C:\Users\Eduardo\Documents\laravel-codedelivery\ionic\www\templates\deliveryman" />
       <recent name="C:\Users\Eduardo\Documents\laravel-codedelivery\ionic\www\js\controllers\deliveryman" />
-      <recent name="C:\Users\Eduardo\Documents\laravel-codedelivery\ionic\www\templates\client" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Eduardo\Documents\laravel-codedelivery\ionic\www\templates\client" />
-      <recent name="C:\Users\eduar\Documents\laravel-codedelivery\app\Models" />
     </key>
   </component>
   <component name="RunManager">
@@ -1604,25 +1360,27 @@
       <updated>1465753646970</updated>
       <workItem from="1469378329116" duration="30510000" />
       <workItem from="1469497188090" duration="4378000" />
+      <workItem from="1469571342253" duration="863000" />
+      <workItem from="1469583437862" duration="11067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34888000" />
+    <option name="totallyTimeSpent" value="46818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21832061" sideWeight="0.43862522" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22442748" sideWeight="0.42062193" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21526718" sideWeight="0.5613748" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22442748" sideWeight="0.57937807" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1653,41 +1411,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ionic/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/checkout_successful.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Client/ClientCheckoutController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/CupomController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1751,20 +1474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="70" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Transformers/OrderTransformer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/checkoutSuccessful.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1793,13 +1502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionic/www/js/services/userData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1814,31 +1516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/checkout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/checkoutDetail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/viewOrder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -1870,24 +1551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/services/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionic/www/templates/deliveryman/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/templates/deliveryman/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1898,26 +1565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/order.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/viewOrder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1925,7 +1576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1933,7 +1583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1941,7 +1590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="42" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1949,7 +1597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1957,15 +1604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/templates/deliveryman/view_order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1973,41 +1611,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/codedelivery_curso.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="90" column="25" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/codedelivery_curso.sql" />
     <entry file="file://$PROJECT_DIR$/app/Services/OrderService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="1156">
           <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Deliveryman/DeliverymanCheckoutController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
+        <state relative-caret-position="1207">
           <caret line="82" column="55" selection-start-line="82" selection-start-column="55" selection-end-line="82" selection-end-column="55" />
-          <folding>
-            <element signature="e#65#112#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2015,14 +1633,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Events/GetLocationDeliveryman.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="206">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/services/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/checkout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="80" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/templates/deliveryman/view_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/viewOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/templates/deliveryman/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="82" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/viewOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="60" column="70" selection-start-line="60" selection-start-column="70" selection-end-line="60" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/lib/angular-google-maps/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/view_delivery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="27" selection-start-line="21" selection-start-column="24" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/OrderTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/viewDelivery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="34" />
           <folding />
         </state>
       </provider>
